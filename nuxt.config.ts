@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/supabase"],
   supabase: {
     // Options
-    redirect: false,
+    redirect: true,
     cookieOptions: {
       secure: false,
     }
